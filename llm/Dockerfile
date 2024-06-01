@@ -25,4 +25,4 @@ COPY --from=builder ${VIRTUAL_ENV} ${VIRTUAL_ENV}
 
 RUN CMAKE_ARGS="-DLLAMA_CUBLAS=on" FORCE_CMAKE=1 pip install llama-cpp-python[server]
 
-ENTRYPOINT ["python3", "-m", "llama_cpp.server", "--host", "0.0.0.0", "--port", "9000", "--model", "./models/codellama/CodeLlama-7b-Instruct/consolidated.00.pth", "--n_gpu_layers", "9999999"]
+ENTRYPOINT ["python3", "-m", "llama_cpp.server", "--host", "0na.0.0.0", "--port", "9000", "--model", "./models/codellama/CodeLlama-7b-Instruct/consolidated.00.pth", "--n_gpu_layers", "9999999"]
