@@ -1,13 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="JupyterPersistentConnectionParameters">
+    <option name="knownRemoteServers">
+      <list>
+        <JupyterConnectionParameters>
+          <option name="authType" value="notebook" />
+          <option name="token" value="49079e27a9b2a2dfe3d876f7b4f415ab3e19786e6aa8b8fb" />
+          <option name="urlString" value="http://localhost:8888" />
+          <authParams2>
+            <map>
+              <entry key="token" value="49079e27a9b2a2dfe3d876f7b4f415ab3e19786e6aa8b8fb" />
+            </map>
+          </authParams2>
+        </JupyterConnectionParameters>
+      </list>
+    </option>
     <option name="moduleParameters">
       <map>
         <entry key="$PROJECT_DIR$/.idea/EUDIS_TEAM_DEL.iml">
           <value>
             <JupyterConnectionParameters>
-              <option name="managed" value="true" />
-              <option name="sdkName" value="" />
+              <option name="authType" value="notebook" />
+              <option name="token" value="49079e27a9b2a2dfe3d876f7b4f415ab3e19786e6aa8b8fb" />
+              <option name="urlString" value="http://localhost:8888" />
+              <authParams2>
+                <map>
+                  <entry key="token" value="49079e27a9b2a2dfe3d876f7b4f415ab3e19786e6aa8b8fb" />
+                </map>
+              </authParams2>
             </JupyterConnectionParameters>
           </value>
         </entry>
