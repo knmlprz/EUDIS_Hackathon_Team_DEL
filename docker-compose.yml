@@ -15,7 +15,7 @@ services:
     volumes:
       - ./llm/models:/models
     ports:
-      - "9000:9000"
+      - "8888:8888"
     deploy:
       resources:
         reservations:
